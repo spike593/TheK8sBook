@@ -21,7 +21,7 @@ spec:
       mountPath: /tmp/git
     env:
     - name: GIT_SYNC_REPO
-      value: file://C:\Users\tdboy\OneDrive\Documents\ps-sidecar
+      value: https://github.com/spike593/ps-sidecar.git
     - name: GIT_SYNC_BRANCH
       value: master
     - name: GIT_SYNC_DEPTH
